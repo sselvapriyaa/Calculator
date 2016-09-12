@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Area Calculator</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+      <!DOCTYPE html>
+<!--
+This webpage allows the user to input the length and width of a rectangle
+so that the area of the rectangle can be calculated.
+-->
+
+       
+        <!--<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+   
+   
+         <div id="head">
+            <h1>Geometry Calculators</h1>
+            <p>Distributed Java JSP/Servlet practice.</p>
+        </div>
+    <div id="wrapper">
+       
+        <div class="block">
+            <h2>Area of a Rectangle</h2>
+            <p>Area of a rectangle is calculated with the following formula:<br>
+                <code>Area = length * width</code> 
+            </p>
+            <form name="rectange" method="POST" action="RectangleCalculator">
+                <div class="inputarea">
+                    <label for="length">Length:</label><input type="text" id="length" name="length" /><br>
+                </div>
+                <div class="inputarea">
+                    <label for="width">Width:</label><input type="text" id="width" name="width" /><br>
+                </div>
+                <input type="submit" id="sumbitRect" value="Calculate Area"/>
+            </form>
+                   
+            
+        </div>
+        
+        <div class="block">
+            <h2>Area of Circle</h2>
+            <p>Area of a circle is calculated with the following formula: <br>
+                <code>Area = 2 * pi * radius</code>
+            </p>
+            <form name="circle" method="POST" action="CircleCalculator">
+                <div class="inputarea">
+                    <label for="radius">Radius:</label><input type="text" id="radius" name="radius" /><br>
+                </div>
+                    <input type="submit" id="sumbitCirc" value="Calculate Area"/>
+            </form>
+        </div> 
+        
+        <div class="block">
+            <h2>Pythagorean Theorem</h2>
+            <p>Given two legs of a right triangle, the length of the third leg can 
+                be found using the Pythagorean Theorem:<br>
+                <code>a^2 + b^2 = c^2</code>
+            </p>
+            <form name="triangle" method="POST" action="TriangleCalculator">
+                <div class="inputarea">
+                    <label for="side1">Side 1:</label><input type="text" id="side1" name="side1" /><br>
+                </div>
+                <div class="inputarea">
+                    <label for="side2">Side 2:</label><input type="text" id="side2" name="side2" /><br>
+                </div>
+                <input type="submit" id="sumbitTriangle" value="Find c"/>
+            </form>
+        </div>
+    </div>
+    </body>
+    
+</html>
+<!--        <h1>Area of a Rectangle</h1>
+        <image src ="http://images.tutorvista.com/cms/images/102/area-of-rectangle.png">
+  
+  <form id="rectangleForm" method="post">
+<h1>Calculate the area of a rectangle:</h1>
+<div>
+    <label for="width">Width</label> 
+    <input type="text" name="width" id="width" value="" />
+</div>
+<div>
+    <label for="length">Length</label>
+    <input type="text" name="length" id="length" value=""/>
+</div>
+<div>
+    <label for="area">Area</label>
+    <input type="text" name="area" id="rectarea" value="" />
+</div>
+<div>
+    <input type="submit" value="Calculate" id="submit" />
+</div>
+
+  </form>
+    </body>
+</html> -->
