@@ -40,10 +40,11 @@
             out.print(resultText);
             
             
-            
+                     
             
             
             
        %>
+       <p><a href="index.html">Back To Index Page</a></p>
     </body>
 </html>

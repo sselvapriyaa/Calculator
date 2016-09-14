@@ -15,25 +15,18 @@
         <h1>Circle Area</h1>
         <p>
             <%
-                
+
                 Object area = request.getAttribute("area");
-                
-                if(area != null){
+
+                if (area != null) {
                     out.print("Area is " + area.toString());
                 } else {
                     out.print("There was a problem computing the area of the circle. :(");
                 }
-                                         
-                                        
-                
+
+
             %>
-            
-            
-            
-            
-            
-        </p>
-        
-        
-    </body>
+
+       </p>
+   </body>
 </html>
