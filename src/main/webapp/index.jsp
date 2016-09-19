@@ -31,7 +31,7 @@ so that the area of the rectangle can be calculated.
                     <code>Area = length * width</code> 
                 </p>
                 
-                <form id= "rectangle" name="rectange" method="POST" action="Calculator?action=RectangleCalculator">
+               <form name="rectange" method="POST" action="RectangleCalculator">
                     <div class="inputarea">
                         <label for="length">Length:</label><input type="text" id="length" name="length" /><br>
                     </div>
@@ -46,7 +46,7 @@ so that the area of the rectangle can be calculated.
                     <p>Area of a circle is calculated with the following formula: <br>
                         <code>Area = 2 * pi * radius</code>
                     </p>
-                    <form id ="circle" name="circle" method="POST" action="Calculator?action=CircleCalculator">
+                     <form name="circle" method="POST" action="CircleCalculator">
                         <div class="inputarea">
                             <label for="radius">Radius:</label><input type="text" id="radius" name="radius" /><br>
                         </div>
@@ -61,7 +61,7 @@ so that the area of the rectangle can be calculated.
                         be found using the Pythagorean Theorem:<br>
                         <code>a^2 + b^2 = c^2</code>
                     </p>
-                    <form id="triangle"name="triangle" method="POST" action="Calculator?action=TriangleCalculator">
+                    <form name="triangle" method="POST" action="TriangleCalculator">
                         <div class="inputarea">
                             <label for="side1">Side 1:</label><input type="text" id="side1" name="side1" /><br>
                         </div>
@@ -71,6 +71,7 @@ so that the area of the rectangle can be calculated.
                         <input type="submit" id="sumbitTriangle" value="Find c"/>
                     </form>
                 </div>
+                
             </div>
             
        <!-- <c:out value="${rectangleResults}" default=""></c:out>

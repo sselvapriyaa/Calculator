@@ -8,7 +8,7 @@
 This web page allows the user to  perform simple geometry calculations:
 area of a rectangle, area of a circle, and pythagorean theorem.
 -->
-<!--<%@page import="java.util.*" %>-->
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
@@ -43,7 +43,8 @@ area of a rectangle, area of a circle, and pythagorean theorem.
                     <code>Area = length &times; width</code> 
                 </p>
                  <image src ="http://images.tutorvista.com/cms/images/102/area-of-rectangle.png">
-                <form id="rectange" name="rectangle" method="POST" action="RectangleCalculator">
+                  
+               <form id="rectangle" name="rectangle" method="POST" action="RectangleCalculator">
                     <div class="inputarea">
                         <label for="length">Length:</label><input type="text" id="length" name="length" /><br>
                     </div>
@@ -80,7 +81,8 @@ area of a rectangle, area of a circle, and pythagorean theorem.
                 </p>                      
 
                 <image src ="https://qph.ec.quoracdn.net/main-qimg-5a525b797f34958f73eee877b4b5a04e?convert_to_webp=true">
-                <form id= "circle" name="circle" method="POST" action="CircleCalculator">
+               
+               <form id= "circle" name="circle" method="POST" action="CircleCalculator">
                     <div class="inputarea">
                          <label for="radius">Radius:</label><input type="text" id="radius" name="radius" /><br>
                     </div>
@@ -112,6 +114,7 @@ area of a rectangle, area of a circle, and pythagorean theorem.
                     <code>a&sup2; + b&sup2; = c&sup2;</code>
                 </p>
                 <img src="http://images.tutorvista.com/cms/images/102/right-triangle.PNG">
+                 
                 <form id="triangle" name="triangle" method="POST" action="TriangleCalculator">
                     <div class="inputarea">
                         <label for="side1">Side 1:</label><input type="text" id="side1" name="side1" /><br>

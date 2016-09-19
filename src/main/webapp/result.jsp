@@ -45,6 +45,6 @@
             
             
        %>
-       <p><a href="index.html">Back To Index Page</a></p>
+       <p><a href="index.jsp">Back To Index Page</a></p>
     </body>
 </html>
