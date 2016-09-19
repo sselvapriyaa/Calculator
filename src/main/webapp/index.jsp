@@ -30,15 +30,16 @@ so that the area of the rectangle can be calculated.
                 <p>Area of a rectangle is calculated with the following formula:<br>
                     <code>Area = length * width</code> 
                 </p>
-                
-               <form name="rectange" method="POST" action="RectangleCalculator">
+                 <form id="rectangle" name="rectangle" method="POST" action="RectangleCalculator">
+              <!-- <form name="rectange" method="POST" action="RectangleCalculator">-->
                     <div class="inputarea">
                         <label for="length">Length:</label><input type="text" id="length" name="length" /><br>
                     </div>
                     <div class="inputarea">
                         <label for="width">Width:</label><input type="text" id="width" name="width" /><br>
                     </div>
-                    <input type="submit" name="sumbitRect" value="Calculate Area"/>
+              
+                   <input type="submit" name="sumbitRect" value="Calculate Area"/>
                 </form>
                 <div class="block">
                     <h2>Area of Circle</h2>
@@ -46,11 +47,13 @@ so that the area of the rectangle can be calculated.
                     <p>Area of a circle is calculated with the following formula: <br>
                         <code>Area = 2 * pi * radius</code>
                     </p>
-                     <form name="circle" method="POST" action="CircleCalculator">
+                       <form id= "circle" name="circle" method="POST" action="CircleCalculator">
+                   <!--  <form name="circle" method="POST" action="CircleCalculator">-->
                         <div class="inputarea">
                             <label for="radius">Radius:</label><input type="text" id="radius" name="radius" /><br>
                         </div>
-                        <input type="submit" name="sumbitCirc" value="Calculate Area"/>
+                   
+                    <input type="submit" name="sumbitCirc" value="Calculate Area"/>
                     </form>
                 </div> 
 
@@ -61,21 +64,21 @@ so that the area of the rectangle can be calculated.
                         be found using the Pythagorean Theorem:<br>
                         <code>a^2 + b^2 = c^2</code>
                     </p>
-                    <form name="triangle" method="POST" action="TriangleCalculator">
+                     <form id="triangle" name="triangle" method="POST" action="TriangleCalculator">
+                   <!-- <form name="triangle" method="POST" action="TriangleCalculator">-->
                         <div class="inputarea">
                             <label for="side1">Side 1:</label><input type="text" id="side1" name="side1" /><br>
                         </div>
                         <div class="inputarea">
                             <label for="side2">Side 2:</label><input type="text" id="side2" name="side2" /><br>
                         </div>
-                        <input type="submit" id="sumbitTriangle" value="Find c"/>
+                    
+                       <input type="submit" id="sumbitTriangle" value="Find c"/>
                     </form>
                 </div>
                 
             </div>
             
-       <!-- <c:out value="${rectangleResults}" default=""></c:out>
-        <c:out value="${circleResults}" default=""></c:out>
-        <c:out value="${triangleResults}" default=""></c:out>-->
+      
          </body>
 </html>
